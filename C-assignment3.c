@@ -251,6 +251,19 @@ void pattern20() {
     }
 }
 
+void pattern21() {
+    int n = 5;
+    int num = 1;
+    for (int i = 1; i <= n; i++) {
+        int num = i;
+        for (int j = 1; j <= n; j++) {
+            printf("%d", num);
+            num++;
+        }
+        printf("\n");
+    }
+}
+
 int main() {
     printf("Pattern 1:\n");
     pattern1();
@@ -292,6 +305,8 @@ int main() {
     pattern19();
     printf("\nPattern 20:\n");
     pattern20();
+    printf("\nPattern 21:\n");
+    pattern21();
     
     return 0;
 }
