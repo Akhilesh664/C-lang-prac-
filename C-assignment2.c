@@ -145,6 +145,8 @@ void calculateSalary() {
     char name[50], address[100], bank_details[50];
     float salary, holidays, deducted_salary;
 
+
+
     printf("Name: ");
     scanf("%s", name);
     printf("Address: ");
