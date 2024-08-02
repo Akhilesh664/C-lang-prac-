@@ -15,6 +15,8 @@ void printHollowSquare(int n) {
     printf("\n");
 }
 
+
+
 void printModifiedPattern1(int n) {
     printf("Modified Pattern 1:\n");
     for (int i = 0; i < n; i++) {
