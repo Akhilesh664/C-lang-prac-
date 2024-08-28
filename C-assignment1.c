@@ -13,6 +13,7 @@ void checkMarksGreaterThan36(float marks[], int count);
 void checkMarksGreaterThan33(float marks[], int count);
 void checkEligibilityForJEE(float percentage);
 void convertTemperature();
+
 void checkShape(float a, float b, float c);
 
 int main() {
